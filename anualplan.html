@@ -61,6 +61,24 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<!--Fecha actualizada-->
+	<script>
+		function actualizarFecha() {
+		  var fecha = new Date();
+		  var dia = fecha.getDate();
+		  var mes = fecha.getMonth() + 1;
+		  var año = fecha.getFullYear();
+		  var hora = fecha.getHours();
+		  var minuto = fecha.getMinutes();
+		  var segundo = fecha.getSeconds();
+  
+		  var fechaActualizada = dia + "/" + mes + "/" + año + " " + hora + ":" + minuto + ":" + segundo;
+		  document.getElementById("fecha").innerHTML = fechaActualizada;
+		}
+  
+		setInterval(actualizarFecha, 1000);
+	  </script>
+
 	</head>
 	<body>
 	<div id="fh5co-page">
@@ -165,24 +183,24 @@
                         <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
                             <h2 class="fh5co-heading"></h2>
                             <h3 class="fh5co-heading">Objetivos especificos</h3>
-                            <h3>• Reconocer las partes del cuerpo humano y relacionarlas con 
+                            <h4>• Reconocer las partes del cuerpo humano y relacionarlas con 
                                 el movimiento a fin de incrementar la coordinación motriz para
                                  desempeñarse adecuadamente en las actividades cotidianas.
-                            </h3>
-                            <h3>• Iniciar el conocimiento, rescate y práctica de los juegos populares
+                            </h4>
+                            <h4>• Iniciar el conocimiento, rescate y práctica de los juegos populares
                                 y tradicionales para hacer de la actividad física un medio idóneo de 
                                preservación de la cultura y de la salud.
-                            </h3>
-                            <h3>• Desarrollar las posibilidades de caminar, correr, saltar, lanzar, 
+                            </h4>
+                            <h4>• Desarrollar las posibilidades de caminar, correr, saltar, lanzar, 
                                 a fin de mejorar el desempeño de sus actividades y fomentar la 
                                 confianza y la seguridad en sí mismo.
-                            </h3>
-                            <h3>• Utilizar adecuadamente los implementos deportivos para estimular
+                            </h4>
+                            <h4>• Utilizar adecuadamente los implementos deportivos para estimular
                                     la participación activa en la ejecución de las actividades físicas.
-                            </h3>
-                             <h3>• Mantener hábitos de higiene, aseo personal y alimentación saludable 
+                            </h4>
+                             <h4>• Mantener hábitos de higiene, aseo personal y alimentación saludable 
                                     en la práctica diaria de actividades físicas
-                            </h3>                            
+                            </h4>                            
                         </div>
                     </div>
                 </div>
@@ -197,32 +215,29 @@
                         <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
                             <h3 class="fh5co-heading">Perfil de desarrollo esperado en alumnos</h3>
                             <h3 class="fh5co-heading">6-8 años</h3>
-                            <h3>• Mayor fluidez de movimientos
+                            <h4>• Mayor fluidez de movimientos
                                 Mayor tono muscular
                                 Interés por el juego socializado
                                 Juegos de construcción
                                 Juegos de personajes
                                 Juegos deportivos
                                 
-                            </h3>
+                            </h4>
                             <h3 class="fh5co-heading">8-10 años</h3>
-                            <h3>• Mayor habilidad motriz
+                            <h4>• Mayor habilidad motriz
                                 Mayor control de actividades de espacio y tiempo
                                 Desarrollo de juegos de resistencia
                                 Juegos predeportivos
                                 Le atrae el carácter competitivo de los juegos
-                            </h3>   
+                            </h4>   
                             <h3 class="fh5co-heading">10-12 años</h3>
-                            <h3>• Mejora la capacidad de esfuerzos constantes
+                            <h4>• Mejora la capacidad de esfuerzos constantes
                                 Mejora su equilibrio
                                 Crecimiento de la musculatura
                                 Juegos variados y dinámicosJuego en condiciones normales con adaptación reglamentaria según la situación.
                                 Reglas básicas que permiten el juego.
-                                Iniciación al arbitraje
-                                
-                                
-                                
-                            </h3>                        
+                                Iniciación al arbitraje     
+                            </h4>                        
                         </div>
                     </div>
                 </div>
@@ -313,6 +328,15 @@
 			</div> -->
 		</div>
 	</div>
+
+	<footer>
+		<!-- Copyright -->
+		  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+			  <p><small>&copy; . All Rights Reserved.</span> <span>Developed by Marcos Mello</a> </span></small></p>
+				  <p><small id="fecha"></small></p>
+		  </div>
+	  <!-- Copyright -->
+	  </footer>
 
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>

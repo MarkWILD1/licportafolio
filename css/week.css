@@ -1,0 +1,23 @@
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 30px;
+	margin: 20px;
+	color: #333;
+}
+
+th {
+	background-color: lightgray;
+}
+
+hr.style1{
+	border-top: 2px solid #8c8b8b;
+}
+
+#tabla-clases {
+	margin: 20px auto;
+}
+
+#agregar-fila {
+	margin-top: 20px;
+}
