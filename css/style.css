@@ -1165,3 +1165,17 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* DESACTIVAR DIV */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1); /* Capa semitransparente */
+  pointer-events: all; /* Deshabilita los eventos de puntero en la capa */
+  cursor: not-allowed; /* Cambia el cursor a "not-allowed" */
+  z-index: 10; /* Asegura que la capa esté por encima del contenido del div */
+}
