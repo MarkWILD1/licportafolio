@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumir JSON</title>
+
+    <link rel="stylesheet" href="../css/week.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="../css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="../css/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="../css/flexslider.css">
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Modernizr JS -->
+    <script src="../js/modernizr-2.6.2.min.js"></script>
+</head>
+
+<body>
+
+    <div id="output"></div>
+
+    <!-- Incluye el archivo data4.js -->
+    <script src="./js/data4.js"></script>
+
+    <!-- Script para consumir y mostrar el JSON -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const outputElement = document.getElementById("output");
+
+        // Usar .map() para iterar sobre los elementos del array data4
+        const htmlContent = data4.map(item => `
+        <div class="container">
+            <div class="jumbotron">
+                <div class="row">
+					<h2 class="card-title">${item.tramo}</h2>
+					<h2 class="card-title">${item.grado_5}</h2>
+					<h2 class="card-title">Fecha: ${item.fecha}</h2>
+                </div>
+                <p><strong>Espacio:</strong> ${item.espacio}</p>
+                <p><strong>Unidad Curricular:</strong> ${item.unidad_curricular}</p>
+                <p><strong>Contenido Estructurante:</strong> ${item.contenido_estructurante}</p>
+                <p><strong>Contenido Específico:</strong> ${item.contenido_especifico}</p>
+                <p><strong>Competencias Generales:</strong> ${item.competencias_generales.join(', ')}</p>
+                <p><strong>Competencia Motriz (CE1):</strong> ${item.competencias_especificas.CE1.competencia_motriz}</p>
+                <p><strong>Criterios de Logro:</strong> ${item.criterios_de_logro}</p>
+                <p><strong>Metas de Aprendizaje:</strong> ${item.metas_de_aprendizaje}</p>
+
+                <h3><strong>Plan de Aprendizaje 1:</strong></h3>
+                <p><strong>Inicio: </strong>${item.plan_de_aprendizaje_1.inicio}</p>
+                <p><strong>Desarrollo: </strong>${item.plan_de_aprendizaje_1.desarrollo}</p>
+                <p><strong>Cierre: </strong>${item.plan_de_aprendizaje_1.cierre}</p>
+
+                <h3><strong>Plan de Aprendizaje 2:</strong></h3>
+                <p><strong>Inicio: </strong>${item.plan_de_aprendizaje_2.inicio}</p>
+                <p><strong>Desarrollo: </strong>${item.plan_de_aprendizaje_2.desarrollo}</p>
+                <p><strong>Cierre: </strong>${item.plan_de_aprendizaje_2.cierre}</p>
+                
+                <h3><strong>Plan de Aprendizaje 3:</strong></h3>
+                <p><strong>Inicio: </strong>${item.plan_de_aprendizaje_3.inicio}</p>
+                <p><strong>Desarrollo: </strong>${item.plan_de_aprendizaje_3.desarrollo}</p>
+                <p><strong>Cierre: </strong>${item.plan_de_aprendizaje_3.cierre}</p>
+
+                <h3><strong>Plan de Aprendizaje 4:</strong></h3>
+                <p><strong>Inicio: </strong>${item.plan_de_aprendizaje_4.inicio}</p>
+                <p><strong>Desarrollo: </strong>${item.plan_de_aprendizaje_4.desarrollo}</p>
+                <p><strong>Cierre: </strong>${item.plan_de_aprendizaje_4.cierre}</p>
+            </div
+          
+        </div>
+      `).join(''); // .join('') para combinar todos los elementos en una sola cadena HTML
+
+            outputElement.innerHTML = htmlContent;
+        });
+    </script>
+
+    <!-- jQuery -->
+    <script src="../js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="../js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <!-- Flexslider -->
+    <script src="../js/jquery.flexslider-min.js"></script>
+</body>
+
+</html>
