@@ -79,6 +79,39 @@ fetch(url)
                                 </td>
                             </tr>
                         </table>
+                        /* SECOND TABLE */
+                        <table class="center-block" border="1">
+                            <tr><!-- PARTE INICIAL -->
+                                <th><i>Inicio: </i>${item.plan_de_aprendizaje_5.inicio.join('<br>')}
+                                </th>
+                                <th><i>Inicio: </i>${item.plan_de_aprendizaje_6.inicio.join('<br>')}
+                                </th>
+                                <th><i>Inicio: </i>${item.plan_de_aprendizaje_7.inicio.join('<br>')}
+                                </th>
+                                <th><i>Inicio: </i>${item.plan_de_aprendizaje_8.inicio.join('<br>')}
+                                </th>
+                            </tr>
+                            <tr><!-- PARTE PRINCIPAL -->
+                                <td><i>Desarrollo:</i> ${item.plan_de_aprendizaje_5.desarrollo.join('<br>')}
+                                </td>
+                                <td><i>Desarrollo:</i> ${item.plan_de_aprendizaje_6.desarrollo.join('<br>')}
+                                </td>
+                                <td><i>Desarrollo:</i> ${item.plan_de_aprendizaje_7.desarrollo.join('<br>')}
+                                </td>
+                                <td><i>Desarrollo:</i> ${item.plan_de_aprendizaje_8.desarrollo.join('<br>')}
+                                </td>
+                            </tr>
+                            <tr> <!-- PARTE FINAL -->
+                                <td><i>Cierre:</i> ${item.plan_de_aprendizaje_5.cierre.join('<br>')}
+                                </td>
+                                <td><i>Cierre:</i> ${item.plan_de_aprendizaje_6.cierre.join('<br>')}
+                                </td>
+                                <td><i>Cierre:</i> ${item.plan_de_aprendizaje_7.cierre.join('<br>')}
+                                </td>
+                                <td><i>Cierre:</i> ${item.plan_de_aprendizaje_8.cierre.join('<br>')}
+                                </td>
+                            </tr>
+                        </table>
                         <h2 class="text mx-auto"><i>Recursos/Adicionales:</i> ${item.recursos_adicionales || 'N/A'}</h2>
                         <hr>
                     </div>
