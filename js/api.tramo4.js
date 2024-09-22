@@ -57,8 +57,6 @@ fetch(url)
                                 </th>
                                 <th><i>Inicio: </i>${item.plan_de_aprendizaje_4.inicio.join('<br>')}
                                 </th>
-                                <th><i>Inicio: </i>${item.plan_de_aprendizaje_5.inicio.join('<br>')}
-                                </th>
                             </tr>
                             <tr><!-- PARTE PRINCIPAL -->
                                 <td><i>Desarrollo:</i> ${item.plan_de_aprendizaje_1.desarrollo.join('<br>')}
@@ -69,8 +67,6 @@ fetch(url)
                                 </td>
                                 <td><i>Desarrollo:</i> ${item.plan_de_aprendizaje_4.desarrollo.join('<br>')}
                                 </td>
-                                <th><i>Inicio: </i>${item.plan_de_aprendizaje_5.desarrollo.join('<br>')}
-                                </th>
                             </tr>
                             <tr> <!-- PARTE FINAL -->
                                 <td><i>Cierre:</i> ${item.plan_de_aprendizaje_1.cierre.join('<br>')}
@@ -81,8 +77,6 @@ fetch(url)
                                 </td>
                                 <td><i>Cierre:</i> ${item.plan_de_aprendizaje_4.cierre.join('<br>')}
                                 </td>
-                                <th><i>Inicio: </i>${item.plan_de_aprendizaje_5.cierre.join('<br>')}
-                                </th>
                             </tr>
                         </table>
                         <h2 class="text mx-auto"><i>Recursos/Adicionales:</i> ${item.recursos_adicionales || 'N/A'}</h2>
