@@ -2466,63 +2466,7 @@
                             "Evaluación: Observación de la participación y el desempeño de los estudiantes durante el partido. (5 minutos)"
                         ]
                     },
-                    "plan_de_aprendizaje_5": {
-                        "inicio": [
-                            "Repaso de las reglas y habilidades trabajadas. (5 minutos)",
-                            "Motivación: ¿Qué les gustaría mejorar en su juego de rugby? (5 minutos)"
-                        ],
-                        "desarrollo": [
-                            "Juego 10: 'Rugby en Espacios Reducidos' - Jugar en un área pequeña para mejorar la rapidez y la toma de decisiones. (20 minutos)",
-                            "Juego 11: 'Desafío de Pases' - Competencia de pases en equipos, buscando precisión y velocidad. (20 minutos)",
-                            "Juego 12: 'Rugby con Estrategias' - Introducir conceptos tácticos en un juego reducido. (20 minutos)"
-                        ],
-                        "cierre": [
-                            "Reflexión sobre las estrategias utilizadas en los juegos. (5 minutos)",
-                            "Evaluación: Observación de la participación y el desempeño de los estudiantes durante las actividades. (5 minutos)"
-                        ]
-                    },
-                    "plan_de_aprendizaje_6": {
-                        "inicio": [
-                            "Repaso de las habilidades y juegos anteriores. (5 minutos)",
-                            "Motivación: ¿Cómo se sienten al jugar rugby? (5 minutos)"
-                        ],
-                        "desarrollo": [
-                            "Juego 13: 'Partido de Rugby con Roles' - Asignar roles específicos a los estudiantes para practicar tácticas. (30 minutos)",
-                            "Juego 14: 'Rugby Sin Balón' - Ejercicios de movimiento y posicionamiento sin el balón. (15 minutos)"
-                        ],
-                        "cierre": [
-                            "Reflexión sobre la importancia de los roles en el rugby. (5 minutos)",
-                            "Evaluación: Observación de la participación y el desempeño de los estudiantes durante el partido. (5 minutos)"
-                        ]
-                    },
-                    "plan_de_aprendizaje_7": {
-                        "inicio": [
-                            "Repaso de las tácticas y roles trabajados. (5 minutos)",
-                            "Motivación: ¿Qué tácticas creen que son más efectivas? (5 minutos)"
-                        ],
-                        "desarrollo": [
-                            "Juego 15: 'Tácticas de Defensa' - Ejercicios para mejorar la defensa en el rugby. (20 minutos)",
-                            "Juego 16: 'Partido de Rugby con Estrategias de Defensa' - Jugar un partido aplicando las tácticas defensivas. (30 minutos)"
-                        ],
-                        "cierre": [
-                            "Reflexión sobre la defensa y su importancia en el rugby. (5 minutos)",
-                            "Evaluación: Observación de la participación y el desempeño de los estudiantes durante el partido. (5 minutos)"
-                        ]
-                    },
-                    "plan_de_aprendizaje_8": {
-                        "inicio": [
-                            "Repaso de las estrategias defensivas y ofensivas. (5 minutos)",
-                            "Motivación: ¿Qué les gustaría practicar en el último día? (5 minutos)"
-                        ],
-                        "desarrollo": [
-                            "Juego 17: 'Partido Final de Rugby' - Jugar un partido completo aplicando todas las habilidades y tácticas aprendidas. (40 minutos)",
-                            "Juego 18: 'Evaluación de Habilidades' - Ejercicios de evaluación de habilidades individuales y en equipo. (15 minutos)"
-                        ],
-                        "cierre": [
-                            "Reflexión sobre el aprendizaje y la experiencia en el rugby. (5 minutos)",
-                            "Evaluación: Observación de la participación y el desempeño de los estudiantes durante el partido final. (5 minutos)"
-                        ]
-                    },
+                    
                     "recursos_adicionales": ""
                 },
                 {
