@@ -39,7 +39,7 @@ fetch(url)
                         <hr>
                         <h3 class="text mx-auto"><u><i>Competencias Generales:</i></u> ${item.competencias_generales.join(', ')}</h3>
                         <hr>
-                        <h3 class="text mx-auto"><u><i>Competencias Específicas:</i></u> <i>CE1. Competencia Motriz:</i>  ${item.competencias_especificas.CE1.competencia_motriz}.</h3>
+                        <h3 class="text mx-auto"><u><i>Competencias Específicas:</i></u> <i>CE1. Competencia Motriz:</i>  ${item.competencias_especificas}.</h3>
                         <hr>
                         <h3 class="text mx-auto"><u><i>Criterios de Logro:</i></u> ${item.criterios_de_logro}</h3>
                         <hr>
